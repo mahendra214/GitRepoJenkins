@@ -11,7 +11,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class FormController {
-	
+	 
 	@RequestMapping(value= "/formDataHandling")
 	public ModelAndView formDataHandling(@ModelAttribute("formData") FormData formData) {
 		ModelAndView modelView = new ModelAndView("admissionSuccess");
